@@ -1,0 +1,5 @@
+<h2> Create your own Pokemon </h2>
+<%= simple_form_for Pokemon.new do |a| %>
+  Name <%= a.text_field :name %>
+  <%= a.submit "Submit" %>
+<% end %>
